@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build": "docker build --platform linux/amd64 -t pragmatedev/vitewp-docker:latest .",
+        "push": "docker push pragmatedev/vitewp-docker:latest",
+        "login": "docker login"
+    }
+}
